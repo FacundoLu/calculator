@@ -4,35 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="./script.js"></script>
+    <script defer src="./keys.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="calcDiv">
         <div id="display">
             <div id="valor-anterior"></div>
-            <div id="valor-actual"></div>
+            <div id="valor-actual">0</div>
         </div>
         <div id="btns">
-            <button id="reset" class="clear">AC</button>
-            <button id="borrar" class="clear">C</button>
+            <button id="reset" class="clear">CE</button>
+            <button id="borrar" class="clear">&#8592</button>
             <button class="numBtn">7</button>
             <button class="numBtn">8</button>
             <button class="numBtn">9</button>
-            <button id="dividir" class="operador">÷</button>
+            <button class="operador">÷</button>
             <button class="numBtn">4</button>
             <button class="numBtn">5</button>
             <button class="numBtn">6</button>
-            <button id="milti" class="operador">x</button>
+            <button class="operador">x</button>
             <button class="numBtn">1</button>
             <button class="numBtn">2</button>
             <button class="numBtn">3</button>
-            <button id="menos" class="operador"> - </button>
+            <button class="operador"> - </button>
             <button class="numBtn">0</button>
-            <button class="numBtn"> . </button>
+            <button id="decimal">.</button>
             <button id="igual"> = </button>
-            <button id="mas" class="operador">+</button>
+            <button class="operador">+</button>
         </div>
     </div>
+
+    <p>Built by FacundoLu <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjtJREFUSEt9lo2R4jAMhT91kqvkoBOohFAJbCVwlUAnupEs23KcrGeyk3Wsv6enZ4S2BEHR+F8A9T9HG90S4mAYuZ/2ngJkb/3QToDsL38+eM+pjOGKoxP48xfkBPoF7PkHvOOZfQwVZCj8qMO1KDzC+U6dzciCnT3ohGsBb6cwVuC2W1qJv+3NF/QH3K6suQdt74J65juOdho7HrwPQczFBp0F4RPMMXyvwCVVY3DYWgLGu3of5CboSb03cgU12xK6w+a4v1Q4BceeJYCfWKKxtfwF5ZuSWwVuwWhL4k9Gqr5bpo+E7xPhatXk3nWnQ+0G6SXZnhHebpuMhwAC5yg/dfQw2CLopw+X3lVYDYnCohLlAWpBbJUyd+jb6TNx7JUo/UY41+rryU9pnkd8C3oepGKi1cQog/dSstavRh/SHPARsOHqFRyxctr3Uj8ISwRoyecApcQCy8CEX5PvH6ss2k4wcJzkFbRNr8BTyxzMa+pNTH7fbxRPTXZBe/URd+meJnNTjfXMB3GjHta/QtNNegaTGVnmBtct4DLIbOhMc8JEXqCWVNeUwsY3qIlf+bIvFe7IDhlk5iRkY8gz0zoz2uyMpn5jbQNY0NW0BTTgmaSzJjcobvizyTf828o9yFlUbfHLReBHhWeTjVL8Kmjoj3P/qoU9E2rjXtPxfuEIxOgPudUA0Z8Ky6zyexdI1p8lQKpSXc/H1PvMDFnPEE3fZ6LPw3C8s+1ac99/tsSRozgdxkbabdaVzP8ByyEGLmMfcEkAAAAASUVORK5CYII="/></p>
 </body>
 </html>
